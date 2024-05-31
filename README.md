@@ -35,6 +35,6 @@ The app uses several Flutter widgets to create a rich and interactive user exper
 - `Text`
 
 ## Contributors
-1. Prince Iranzi
-2. Innocent Manzi
-3. Noella Uwayo
+1. [Prince Iranzi](https://github.com/iranziprince01): Researcher
+2. [Innocent Manzi](https://github.com/innocentmanzi): Coder
+3. [Noella Uwayo](https://github.com/n-uwayo/): Debbuger
