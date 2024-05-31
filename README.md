@@ -30,3 +30,8 @@ The app uses several Flutter widgets to create a rich and interactive user exper
 - `Positioned`
 - `Icon`
 - `Text`
+
+## Contributors
+1. Prince Iranzi
+2. Innocent Manzi
+3. Noella Uwayo
