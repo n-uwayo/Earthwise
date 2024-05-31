@@ -218,4 +218,62 @@ class CommunityScreen extends StatelessWidget {
     );
   }
 }
+class ClimateDashboard extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: ListView(
+        children: [
+          Container(
+            padding: EdgeInsets.all(16),
+            child: Column(
+              children: [
+                Text('Climate Tracker', style: TextStyle(fontSize: 24)),
+                SizedBox(height: 10),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Chip(
+                      avatar: Icon(Icons.thermostat),
+                      label: Text('Temperature'),
+                    ),
+                    Chip(
+                      avatar: Icon(Icons.water),
+                      label: Text('Humidity'),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 20),
+                Container(
+                  height: 200,
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        top: 0,
+                        left: 0,
+                        child: Icon(Icons.cloud, size: 100),
+                      ),
+                      Positioned(
+                        bottom: 0,
+                        right: 0,
+                        child: Icon(Icons.wb_sunny, size: 100),
+                      ),
+                      Center(
+                        child: Text(
+                          'Live Climate Data',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
 
