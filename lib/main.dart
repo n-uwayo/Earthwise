@@ -192,4 +192,17 @@ class SettingsScreen extends StatelessWidget {
     );
   }
 }
+class TrackScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Track'),
+      ),
+      body: Center(
+        child: Text('Track Screen'),
+      ),
+    );
+  }
+}
 
