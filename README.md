@@ -1,5 +1,8 @@
 # Earthwise
-Earthwise is a revolutionary mobile application designed to address global climate change and wildlife conservation challenges. It aims to empower users by providing tools and information to contribute towards sustainable environmental practices.
+Earthwise is a revolutionary mobile application that addresses global climate change and wildlife conservation challenges. It aims to empower users by providing tools and information to contribute towards sustainable environmental practices.
+
+![Eartwise_G8](https://github.com/n-uwayo/Earthwise/assets/116654088/94f61be1-d099-45b3-adf0-4c6395b14f36)
+
 
 ## Features
 
