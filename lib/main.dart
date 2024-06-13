@@ -187,7 +187,7 @@ class SettingsScreen extends StatelessWidget {
         title: const Text('Settings'),
       ),
       body: Center(
-        child: Text('Settings Screen'),
+        child: Text('Setting Screen'),
       ),
     );
   }
